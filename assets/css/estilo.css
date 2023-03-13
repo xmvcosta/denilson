@@ -198,7 +198,15 @@ nav .active a,nav a:hover{background-color:var(--cor-titulo);color:#FFF;}
 /**INDEX**/
 #teste{
     background-image: url("../imgs/construction-plans-of-architectural-project.jpg") ;
+    background-size: cover;
+     
     height: 100%;
+}
+
+#teste > img{
+    
+    background-color: #000;
+    opacity: 0.1;
 }
 
 
