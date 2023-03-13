@@ -13,7 +13,7 @@
     --cor-titulo-1: #F05A00;
 
     /*CORES*/
-    --cor-bg-1: #273A73;
+    --cor-bg-1: #000000;
     --cor-bg-2: #F1F1FA;
     --cor-bg-3: #95a6db;
     --bg-light:#FFF;
@@ -196,6 +196,16 @@ nav .active a,nav a:hover{background-color:var(--cor-titulo);color:#FFF;}
 
 /****PAGINAS****/
 /**INDEX**/
+#teste{
+    background-image: url("../imgs/construction-plans-of-architectural-project.jpg") ;
+    height: 100%;
+}
+
+
+
+
+
+
 .saibamais, .manuais{
     display: block;
     width: 140px;
