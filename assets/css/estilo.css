@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*RESET BÁSICO*/
 *, *::after, *::before{margin:0;padding:0;box-sizing:border-box;border:none;outline:none;text-decoration: none;}
 
 /*DEFININDO VARIAVEIS GLOBAIS*/
@@ -14,7 +13,7 @@
 
     /*CORES*/
     --cor-bg-1: #000000;
-    --cor-bg-2: #F1F1FA;
+    --cor-bg-2: blue;
     --cor-bg-3: #95a6db;
     --bg-light:#FFF;
     --bg-light-1:#eaece5;
@@ -24,12 +23,11 @@
 /****GLOBAL****/
 /*CUSTOMIZAÇÃO DE TAGS, CORES*/
 
-html, body{height: 100vh;font-size: 100%;}
+html, body{height: 100vh;width: 100%;font-family:var(--fonte-texto);font-size: 100%;}
 body{   
     font-size: 16px;
-    font-family:var(--fonte-texto); 
     line-height: 1.625em;
-    background-color: var(--cor-bg-2) ;
+    background-color: var(--cor-bg-2);
     color: var(--cor-texto);
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -199,19 +197,12 @@ nav .active a,nav a:hover{background-color:var(--cor-titulo);color:#FFF;}
 #teste{
     background-image: url("../imgs/construction-plans-of-architectural-project.jpg") ;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
      
-    height: 100%;
-}
-
-#teste > img{
     
-    background-color: #000;
-    opacity: 0.1;
 }
-
-
-
-
 
 
 .saibamais, .manuais{
