@@ -42,7 +42,6 @@ h2{font-size: 1.8em;}
 h3{font-size: 1.6em;}
 h4{font-size: 1.4em;}
 
-
 a{text-decoration: none;color:var(--cor-texto);}
 address{font-style: normal !important;}
 
@@ -194,18 +193,6 @@ nav .active a,nav a:hover{background-color:var(--cor-titulo);color:#FFF;}
 
 /****PAGINAS****/
 /**INDEX**/
-#teste{
-    background-image: url("../imgs/construction-plans-of-architectural-project.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 200px;
-     
-    
-}
-
-
-/***************************************************************************************/
 
 .saibamais, .manuais{
     display: block;
@@ -329,7 +316,3 @@ nav .active a,nav a:hover{background-color:var(--cor-titulo);color:#FFF;}
     color: gray;
     margin-bottom: 1em;
   }
-  
-
-
-
