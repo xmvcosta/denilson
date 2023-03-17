@@ -66,61 +66,14 @@ main{
     
 }
 
-/*BOX utilizado para estilizar algumas partes do site*/
-.box{
-    background:var(--bg-light-1); 
-    color: var(--cor-texto);
-    margin: 2em 0;
-    
-}
-.box h1{
-    padding: 1em 0;
-    text-transform: uppercase;
-    
-}
-
-.box h2{
-    padding: 1em 0;
-    text-transform: uppercase;
-}
-
-.box-image{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.box-image img{
-    box-shadow: 2px 2px 5px #999;
-    max-width: 300px;
-    margin: 1em auto;
-}
-
-.box-content{
-    padding: 2.5em;
-}
-
-.box li{
-    list-style: none;
-}
-
-.box p{
+p{
     margin-bottom: 0.9em; 
     color: var(--cor-texto);
     text-align:left; 
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: keep-all;
-}
-
-.box address{display: inline;}
-.box-wrap{
-    display: flex;
-    gap: 1em;
     padding: 1em;
-    justify-content: center;
-    align-items: center;
 }
 
 /****TOPO****/
