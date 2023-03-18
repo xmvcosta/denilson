@@ -31,9 +31,11 @@ body{
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
 }
+
+img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
+
 ul li{list-style: none; padding: 5px;}
 li{line-height: 1.625em;}
-img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 
 h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulos);color: var(--cor-titulo);text-align: center;text-shadow: 1px 1px 2px var(--cor-texto);line-height: 1.6em;}
 h1{font-size: 1.9em;}
@@ -50,10 +52,9 @@ address{font-style: normal !important;}
 
 main{
     background: #fff;
-    
 }
 
-#teste{    
+#banner_top{    
     background-image: url(../imgs/construction-plans-of-architectural-project.jpg);
     background-size: cover;
     background-repeat: no-repeat ;
@@ -61,7 +62,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .vidro {
@@ -70,15 +70,9 @@ main{
     backdrop-filter: blur( 1px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.05 );
-    
     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    
     -webkit-backdrop-filter: blur( 5px );
-    
-    
     background: rgba( 255, 255, 255, 0.35 ); */
-
-
 }
 
 .vidro span{
@@ -95,7 +89,6 @@ main{
     height: 2px;
     background: var(--cor-titulo);
     margin: 0 auto 2em;
-    
 }
 
 /* p{
