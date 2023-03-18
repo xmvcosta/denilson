@@ -5,14 +5,12 @@
 :root {
 
     /*FONTES*/
-    --fonte-texto: "Roboto", sans-serif;
+    --fonte-paragrafo: "Roboto", sans-serif;
     --fonte-titulos: Helvetica,sans-serif;
+   
+    /*CORES*/
     --cor-texto: #000;
     --cor-titulo: #373737;
-    --cor-titulo-1: #373737;
-    
-
-    /*CORES*/
     --cor-bg-1: #0e0aa1;
     --cor-bg-2: blue;
     --cor-bg-3: #373737;
@@ -37,7 +35,7 @@ ul li{list-style: none; padding: 5px;}
 li{line-height: 1.625em;}
 img{max-width: 100%;display: block;margin: auto;border-radius:5px;}
 
-h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulos);color: var(--cor-titulo);text-align: center;text-shadow: 1px 1px 2px var(--cor-bg-1);line-height: 1.6em;}
+h1,h2,h3,h4,h5,h6{font-family:var(--fonte-titulos);color: var(--cor-titulo);text-align: center;text-shadow: 1px 1px 2px var(--cor-texto);line-height: 1.6em;}
 h1{font-size: 1.9em;}
 h2{font-size: 1.8em;}
 h3{font-size: 1.6em;}
@@ -100,7 +98,7 @@ main{
     
 }
 
-p{
+/* p{
     margin-bottom: 0.9em; 
     color: var(--cor-texto);
     text-align:left; 
@@ -108,7 +106,20 @@ p{
     overflow-wrap: break-word;
     word-break: keep-all;
     padding: 1em;
+} */
+
+p{
+    color: var(--cor-texto);
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.05em; 
+    text-align: left;
+    letter-spacing: 0.05rem;
+    margin: 1em 0;
+    overflow-wrap: break-word;
+    padding: 0 0.5em;
+    /* background-color: red; */
 }
+
 
 /****TOPO****/
 #toposite{background:var(--cor-bg-1);}
