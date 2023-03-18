@@ -53,6 +53,9 @@ address{font-style: normal !important;}
 main{
     background: #fff;
 }
+main li{
+    font-family: var(--fonte-paragrafo);
+}
 
 #banner_top{    
     background-image: url(../imgs/construction-plans-of-architectural-project.jpg);
