@@ -81,6 +81,29 @@ main li{
 
 .vidro span{
     display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-azul-top{
+    background-color: var(--cor-bg-1);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.btn-top{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.btn-vermelho-top{
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1em;
 }
 
 /****CLASSES AUXILIARES****/
